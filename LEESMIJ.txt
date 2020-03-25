@@ -1,5 +1,6 @@
 Welkom bij de GitHub/GitPod-omgeving PHP/MyAdmin
 van het Augustinuscollege Groningen
+https://gitpod.io/#
 
 *********************** BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK ***********************
 *********************** BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK ***********************
