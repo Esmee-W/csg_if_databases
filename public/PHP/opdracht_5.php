@@ -19,6 +19,12 @@ foreach ($reeks as $waarde) {
 }
 print_r($macht3);
 echo "<br>";
+
+$n=1;
+while ($macht3[$n]<1000) {
+  echo $macht3[$n]." | ";  
+  $n++;
+}
 /****************************
 EINDE VAN JOUW PHPCODE
 ****************************/
