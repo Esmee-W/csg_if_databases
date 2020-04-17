@@ -66,6 +66,6 @@ class __TwigTemplate_782c793179e48cf4dc28fcb86c417ef53789f19b191ee8c909098aaa301
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/page_selector.twig", "/workspace/PHPMySQL_fork/public/phpMyAdmin/templates/display/results/page_selector.twig");
+        return new Source("", "display/results/page_selector.twig", "/workspace/csg_if_databases/public/phpMyAdmin/templates/display/results/page_selector.twig");
     }
 }
