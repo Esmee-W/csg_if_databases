@@ -40,7 +40,7 @@ CREATE TABLE `producten` (
 
 LOCK TABLES `producten` WRITE;
 /*!40000 ALTER TABLE `producten` DISABLE KEYS */;
-INSERT INTO `producten` VALUES (1,'Chocoladehagel puur',2.17,'Strooibaar','Puur','Hagelslag',380),(2,'Chocoladehagel melk',2.17,'Strooibaar','Melk','Hagelslag',0),(3,'Witte vlokken',1.78,'Strooibaar','Witte chocolade','Vlokken',0);
+INSERT INTO `producten` VALUES (1,'Chocoladehagel puur',2.17,'Strooibaar','Pure chocolade','Hagelslag',380),(2,'Chocoladehagel melk',2.17,'Strooibaar','Melk chocolade','Hagelslag',380),(3,'Witte vlokken',1.78,'Strooibaar','Witte chocolade','Vlokken',300),(4,'Vlokken puur',1.77,'Strooibaar','Pure chocolade','Vlokken',300),(5,'Vlokken melk',1.77,'Strooibaar','Melk chocolade','Vlokken',300),(6,'Vlokken vlok feest',1.79,'Strooibaar','Mix','Vlokken',300),(7,'Royaal vlokken',1.85,'Strooibaar','Extra pure chocolade','Vlokken',300),(8,'Royaal hagel',2.09,'Strooibaar','Extra pure chocolade','Hagelslag',380),(9,'Specials koffie - puur',1.97,'Strooibaar','Mix','Hagelslag',220),(10,'Specials extra puur',1.97,'Strooibaar','Extra pure chocolade','Hagelslag',240),(11,'Specials intens puur',1.77,'Strooibaar','Intens pure chocolade','Hagelslag',220),(12,'Chunks extra puur',2.19,'Strooibaar','Extra pure chocolade','Chunks',200),(13,'Chunks melk',2.19,'Strooibaar','Melk chocolade','Chunks',200),(14,'Vruchtenhagel bosvruchten',1.38,'Strooibaar','Bosvruchten','Hagelslag',300),(15,'Vruchtenhagel',1.38,'Strooibaar','Vruchten','Hagelslag',400);
 /*!40000 ALTER TABLE `producten` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-05-12  9:06:45
+-- Dump completed on 2020-05-12  9:46:29
