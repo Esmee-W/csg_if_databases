@@ -13,6 +13,7 @@ else {
 // Dit gedeelte laat je normaliter weg, maar is hier ter illustratie toegevoegd
 echo '<i>verbinding database succesvol</i>';
 }
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -21,11 +22,13 @@ echo '<i>verbinding database succesvol</i>';
         <link rel="stylesheet" type="text/css" href="css/design.css">
     </head>
     <body>
+        <?php include 'php/header.php';?>
         <div id="container">
             <h1>
                 <?php echo 'een <strong>klein</strong> stukje PHP';?>
             </h1>
             <img src="images/cartoon.jpg">
         </div>
+        <?php include 'php/footer.php';?>
     </body>
 </html>
