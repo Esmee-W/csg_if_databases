@@ -1,7 +1,22 @@
+:root {
+  --hoogte-header-balk: 150px;
+  --afstand-logo-rand: 5px;
+}
+
 #rectangle{
     width: screen.width;
-    height:150px;
-    background:#C08552;
+    height:var(--hoogte-header-balk);
+    background:#91D8A6;
+}
+
+div.fotologo {
+    position: absolute;
+    height: 100/*var(--hoogte-header-balk)-2*var(--afstand-logo-rand)*/;
+    width:auto;
+    
+    top:5px;
+    left:5px;
+    
 }
 
 html,body {
@@ -24,5 +39,4 @@ body {
 img {
     width: 60%;
     height: auto;
-    border: 10px solid rgb(0, 0, 0);
 }

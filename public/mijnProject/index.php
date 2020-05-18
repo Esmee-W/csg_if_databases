@@ -27,7 +27,7 @@ else {
             <h1>
                 <?php echo 'een <strong>klein</strong> stukje PHP';?>
             </h1>
-            <img src="images/cartoon.jpg">
+            <!--<img src="images/cartoon.jpg">-->
         </div>
         <?php include 'php/footer.php';?>
     </body>
