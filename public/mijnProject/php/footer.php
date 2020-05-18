@@ -5,8 +5,7 @@
 </head>
 <body>
 
-<h1>heeeeeeee</h1>
-<p>This is a paragraph.</p>
+<h1>Footer</h1>
 
 </body>
 </html>

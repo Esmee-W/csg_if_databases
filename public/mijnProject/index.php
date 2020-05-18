@@ -11,7 +11,7 @@ die("Verbinding mislukt: " . mysqli_connect_error());
 }
 else {
 // Dit gedeelte laat je normaliter weg, maar is hier ter illustratie toegevoegd
-echo '<i>verbinding database succesvol</i>';
+// echo '<i>verbinding database succesvol</i>';
 }
 
 ?>

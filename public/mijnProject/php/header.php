@@ -2,11 +2,13 @@
 <html>
 <head>
 <title>Page Title</title>
+<link rel="stylesheet" href="css/design.css">
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<div id="rectangle"></div>
+<h1>Header</h1>
+
 
 </body>
 </html>
