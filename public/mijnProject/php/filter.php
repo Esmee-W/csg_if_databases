@@ -4,12 +4,19 @@
 
 <div id="demo">
 
-<h1>Smeerbaar</h1>
 
 <button type="button"
-onclick="loadDoc('data.php', myFunction)">filter
+onclick="loadDoc('data.php', myFunction)">Smeerbaar
 </button>
 </div>
+<div id="strooi">
+
+
+<button type="button"
+onclick="loadDoc('data2.php', myFunction2)">Strooibaar
+</button>
+</div>
+
 
 <script>
 function loadDoc(url, cFunction) {
@@ -25,7 +32,11 @@ function loadDoc(url, cFunction) {
 }
 function myFunction(xhttp) {
   document.getElementById("demo").innerHTML =
-  xhttp.responseText;
+  xhttp.responseText;;
+}
+function myFunction2(xhttp) {
+  document.getElementById("strooi").innerHTML =
+  xhttp.responseText;;
 }
 </script>
 </body>

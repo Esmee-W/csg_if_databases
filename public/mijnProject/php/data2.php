@@ -9,8 +9,7 @@ $DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $datab
 
 echo "<h2>RESULTAAT</h2>";
 // Voer een query uit
-
-$sql = "SELECT * FROM producten WHERE  type='Smeerbaar' ";
+$sql = "SELECT * FROM producten WHERE  type='Strooibaar' ";
 $records = mysqli_query($DBverbinding, $sql);
       
 if (mysqli_num_rows($records) > 0) {
