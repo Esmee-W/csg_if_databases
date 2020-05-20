@@ -12,6 +12,10 @@
     <img src="images/logo-de-ruijter.png" alt='logo'>
     </a>
 </div>
+
+<button class="button button1"onclick="location.href='https://google.com';">Home</button>
+<button class="button button2"onclick="location.href='https://google.com';">Producten</button>
+<button class="button button3"onclick="location.href='https://google.com';">Contact</button>
 <h1>Header</h1>
 
 
