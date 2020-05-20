@@ -6,6 +6,7 @@
 
 
 <button type="button"
+name="Smeer"
 onclick="loadDoc('data.php', myFunction)">Smeerbaar
 </button>
 </div>
@@ -13,7 +14,7 @@ onclick="loadDoc('data.php', myFunction)">Smeerbaar
 
 
 <button type="button"
-onclick="loadDoc('data2.php', myFunction2)">Strooibaar
+onclick="loadDoc('data.php', myFunction2)">Strooibaar
 </button>
 </div>
 

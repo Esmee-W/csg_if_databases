@@ -1,6 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+if (button.name=='Smeer') {
+<?php
+$sql = "SELECT * FROM producten WHERE  type='Smeerbaar' ";
+?>
+}
+
+</body>
+</html>
 <?php
 
 require('database.php');
+require('filter.php');
 $database = "project";
 
 $DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $database);
@@ -10,7 +22,10 @@ $DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $datab
 echo "<h2>RESULTAAT</h2>";
 // Voer een query uit
 
-$sql = "SELECT * FROM producten WHERE  type='Smeerbaar' ";
+
+$sql = "SELECT * FROM producten WHERE  type='Strooibaar' ";
+
+
 $records = mysqli_query($DBverbinding, $sql);
       
 if (mysqli_num_rows($records) > 0) {
