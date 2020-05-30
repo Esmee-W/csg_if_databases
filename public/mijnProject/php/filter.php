@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+<div>
+    <input type="checkbox" id="Smeer" name="hasCar" 
+    onclick="loadDoc('data.php', myFunction)">
+    <label for="car">Smeerbaar</label>
+  </div>
 <div id="demo">
 
+<p> hallo</p>
 
-<button type="button"
-name="Smeer"
-onclick="loadDoc('data.php', myFunction)">Smeerbaar
-</button>
 </div>
+
 <div id="strooi">
 
 
 <button type="button"
-onclick="loadDoc('data.php', myFunction2)">Strooibaar
+onclick="loadDoc('data2.php', myFunction2)">Strooibaar
 </button>
 </div>
 
