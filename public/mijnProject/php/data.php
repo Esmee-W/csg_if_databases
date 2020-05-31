@@ -10,7 +10,8 @@ $DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $datab
 
 echo "<h2>RESULTAAT</h2>";
 // Voer een query uit
-$sql = "SELECT * FROM producten WHERE  type='Smeerbaar' ";
+$where = "WHERE type='smeerbaar'";
+$sql = "SELECT * FROM producten $where ";
 
 
 
