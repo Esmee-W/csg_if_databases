@@ -2,6 +2,7 @@
 :root {
   --hoogte-header-balk: 130px;
   --afstand-logo-rand: 5px;
+  --hoogte-footer-balk: 100px;
 }
 
 #rectangletop{
@@ -20,10 +21,10 @@ img.fotologotop {
     left:var(--afstand-logo-rand);
 }
 
-.button {
+.buttontop {
   position: absolute;
   border: none;
-  color: white;
+  color: #5c1d1f;
   padding: auto auto;
   text-align: center;
   text-decoration: none;
@@ -33,33 +34,26 @@ img.fotologotop {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  background-color:#91D8A6;
+  outline:none;
 }
 
-.button:hover {
+.buttontop:hover {
   background-color: #91D8A6;
   color: white;
 }
 
 .button1 {
-  background-color:#91D8A6; 
-  color: black; 
-  border: none;
   left: 300px;
   top: 30px;
 }
 
 .button2 {
-  background-color: #91D8A6; 
-  color: black; 
-  border: none;
   left: 500px;
   top: 30px;
 }
 
 .button3 {
-  background-color:#91D8A6; 
-  color: black; 
-  border: none;
   left: 700px;
   top: 30px;
 }
@@ -85,7 +79,7 @@ body {
 /*footer*/
 #rectanglebottom{
     position:absolute;
-    height: 100px;
+    height: var(--hoogte-footer-balk);
     width: 100%;
     background-color: rgb(212, 212, 212);
     left:0px;
@@ -94,6 +88,41 @@ body {
 
 img.fotologobottom{
     position:absolute;
-    right:50%;
+    bottom: calc(var(--hoogte-footer-balk) - 55px);
+    right: calc(50% - 75px / 2);
+    height: auto;
+    width: 75px;
+}
 
+.buttonbottom {
+  position: absolute;
+  border: none;
+  color: #5c1d1f;
+  padding: auto auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: arial;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgb(212, 212, 212);
+  outline:none;
+}
+
+.buttonbottom:hover {
+  background-color: rgb(212, 212, 212);
+  color: #5c1d1f;
+  text-decoration: underline
+}
+
+.button4{
+ left:35%;
+ bottom:10px;
+}
+
+.button5{
+    left:45%;
+    bottom:10px;
 }
