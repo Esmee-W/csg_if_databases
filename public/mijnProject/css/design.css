@@ -1,26 +1,26 @@
+/*header*/
 :root {
   --hoogte-header-balk: 130px;
   --afstand-logo-rand: 5px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-#rectangle{
-    width: screen.width;
+#rectangletop{
+    width: 100%;
     height:var(--hoogte-header-balk);
     background:#91D8A6;
+    left:0px
+    top:0px;
 }
 
-img.fotologo {
+img.fotologotop {
     position: absolute;
     width:auto;
     height:calc(var(--hoogte-header-balk) - 2 * var(--afstand-logo-rand));
-
     top:var(--afstand-logo-rand);
     left:var(--afstand-logo-rand);
-    
 }
+
 .button {
-    
   position: absolute;
   border: none;
   color: white;
@@ -28,8 +28,8 @@ img.fotologo {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 25px;
-  font-family: 'Pacifico', cursive;
+  font-size: 45px;
+  font-family: 'Neucha', cursive;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -64,7 +64,7 @@ img.fotologo {
   top: 30px;
 }
 
-
+/*tussenstuk*/
 html,body {
     margin: 0;
     padding: 0;
@@ -82,4 +82,18 @@ body {
     padding: 0;
 }
 
+/*footer*/
+#rectanglebottom{
+    position:absolute;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    left:0px;
+    bottom:0px;
+}
 
+img.fotologobottom{
+    position:absolute;
+    right:50%;
+
+}

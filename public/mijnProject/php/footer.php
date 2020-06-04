@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+    <head>
+        <title>Footer</title>
+        <link rel="stylesheet" href="css/design.css">
+    </head>
+    
+    <body>
+        <div id="rectanglebottom"></div>
+        <img class="fotologobottom" src="images/logo-de-ruijter.png">
 
-<h1>Footer</h1>
 
 </body>
 </html>
