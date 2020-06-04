@@ -16,13 +16,11 @@ img.fotologotop {
     position: absolute;
     width:auto;
     height:calc(var(--hoogte-header-balk) - 2 * var(--afstand-logo-rand));
-
     top:var(--afstand-logo-rand);
     left:var(--afstand-logo-rand);
-    
 }
+
 .button {
-    
   position: absolute;
   border: none;
   color: white;
@@ -92,5 +90,10 @@ body {
     background-color: rgb(212, 212, 212);
     left:0px;
     bottom:0px;
+}
+
+img.fotologobottom{
+    position:absolute;
+    right:50%;
 
 }
