@@ -4,7 +4,8 @@
 
 <input type="checkbox" onclick="loadDoc(smeer)" id="smeerbaar">
 <label for="smeerbaar">Smeerbaar</label>
-
+<input type="checkbox" onclick="loadDoc(strooi)" id="strooibaar">
+<label for="strooibaar">Strooibaar</label>
 
 
 
@@ -23,8 +24,26 @@ function loadDoc(cFunction) {
   xhttp.send();
 }
 function smeer(xhttp) {
-  document.getElementById("producten").innerHTML =
-  xhttp.responseText;
+    var smeercheck = document.getElementById("smeerbaar")
+    if(smeercheck.checked==true) {
+        document.getElementById("producten").hidden=false;
+        document.getElementById("producten").innerHTML =
+        xhttp.responseText;
+    } if(smeercheck.checked==false) {
+        document.getElementById("producten").hidden=true;
+    }    
+    
+    
+}
+function strooi(xhttp) {
+  var strooicheck = document.getElementById("strooibaar")
+    if(strooicheck.checked==true) {
+        document.getElementById("producten").hidden=false;
+        document.getElementById("producten").innerHTML =
+        xhttp.responseText;
+    } if(strooicheck.checked==false) {
+        document.getElementById("producten").hidden=true;
+    }   
 }
 </script>
 </body>
