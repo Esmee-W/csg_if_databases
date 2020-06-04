@@ -1,7 +1,8 @@
 :root {
-  --hoogte-header-balk: 150px;
+  --hoogte-header-balk: 130px;
   --afstand-logo-rand: 5px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 #rectangle{
     width: screen.width;
@@ -9,54 +10,56 @@
     background:#91D8A6;
 }
 
-div.fotologo {
+img.fotologo {
     position: absolute;
-    height: 100/*var(--hoogte-header-balk)-2*var(--afstand-logo-rand)*/;
     width:auto;
-    
-    top:5px;
-    left:5px;
+    height:calc(var(--hoogte-header-balk) - 2 * var(--afstand-logo-rand));
+
+    top:var(--afstand-logo-rand);
+    left:var(--afstand-logo-rand);
     
 }
 .button {
+    
   position: absolute;
   border: none;
   color: white;
-  padding: 30px 32px;
+  padding: auto auto;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 25px;
+  font-family: 'Pacifico', cursive;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
 
 .button:hover {
-  background-color: #008cd3;
-  color: rgb(0, 0, 0);
+  background-color: #91D8A6;
+  color: white;
 }
 
 .button1 {
-  background-color: white; 
+  background-color:#91D8A6; 
   color: black; 
-  border: 2px solid #008cd3;
+  border: none;
   left: 300px;
   top: 30px;
 }
 
 .button2 {
-  background-color: white; 
+  background-color: #91D8A6; 
   color: black; 
-  border: 2px solid #008cd3;
+  border: none;
   left: 500px;
   top: 30px;
 }
 
 .button3 {
-  background-color: white; 
+  background-color:#91D8A6; 
   color: black; 
-  border: 2px solid #008cd3;
+  border: none;
   left: 700px;
   top: 30px;
 }
@@ -79,7 +82,4 @@ body {
     padding: 0;
 }
 
-img {
-    width: 60%;
-    height: auto;
-}
+
