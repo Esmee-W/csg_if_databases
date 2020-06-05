@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
     <body>
+    <div class='middle'>
+        <h2>type</h2>
+        <form onclick="updateResultaat()">
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Strooibaar'">strooi<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Smeerbaar'">smeer<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Drinkbaar'">drink<br>
+        </form>
+        <h2>soort</h2>
+        <form onclick="updateResultaat()">
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Hagelslag'">hagelslag<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Vlokken'">vlokken<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Chunks'">chunks<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Muisjes'">muisjes<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Staafjes'">staafjes<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Kleintjes'">kleintjes<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Bebogeen'">bebogeen<br>
+        </form>
 
-    <form onclick="updateResultaat()">
-        <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Strooibaar'">strooi<br>
-        <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Smeerbaar'">smeer<br>
-        <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Drinkbaar'">drink<br>
-        <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Hagelslag'">hagel<br>
-    </form>
+    </div>
     <div id="uitvoer"> <!-- hier komt de uitvoer van de query -->
     </div>
 
