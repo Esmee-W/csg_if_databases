@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Home</title>
+        <title>De Ruijter</title>
         <link rel="stylesheet" type="text/css" href="css/design.css">
     </head>
     <body>
