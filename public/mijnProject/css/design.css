@@ -136,7 +136,7 @@ img.fotologobottom{
 }
 
 .copyright{
-    position:absolute;
+    position:relative;
     bottom:10px;
     right: 15%;
     position: absolute;
