@@ -7,7 +7,7 @@
     <body>
         <?php include 'php/header.php';?>
         <div class="middle">
-            <h1>
+            <h1 class='titel'>
                 Over deze website
             </h1>
         </div>

@@ -2,38 +2,41 @@
 <html>
     <body>
     <?php include 'php/header.php';?>
-    <div class='middle'>
-        <h2>type</h2>
+    <h1 class='titel'>
+        Producten
+    </h1>
+    <div class='middlefilter'>
+        <h2>Type</h2>
         <form onclick="updateResultaat()">
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Strooibaar'">strooi<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Smeerbaar'">smeer<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Drinkbaar'">drink<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Strooibaar'">Strooibaar<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Smeerbaar'">Smeer<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Drinkbaar'">Drinken<br>
         </form>
-        <h2>soort</h2>
+        <h2>Soort</h2>
         <form onclick="updateResultaat()">
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Hagelslag'">hagelslag<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Vlokken'">vlokken<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Chunks'">chunks<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Muisjes'">muisjes<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Staafjes'">staafjes<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Kleintjes'">kleintjes<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Bebogeen'">bebogeen<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Hagelslag'">Hagelslag<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Vlokken'">Vlokken<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Chunks'">Chunks<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Muisjes'">Muisjes<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Staafjes'">Staafjes<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Kleintjes'">Kleintjes<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Bebogeen'">Bebogeen<br>
         </form>
-        <h2>smaak</h2>
+        <h2>Smaak</h2>
         <form onclick="updateResultaat()">
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Pure chocolade'">puur<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Melk chocolade'">melk<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Witte chocolade'">wit<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Mix'">mix<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Extra pure chocolade'">extra puur<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Bosvruchten'">bosvruchten<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Vruchten'">vruchten<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Anijs'">anijs<br>
-            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Caramel'">caramel<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Pure chocolade'">Pure chocolade<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Melk chocolade'">Melk chocolade<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Witte chocolade'">Witte chocolade<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Mix'">Mix van smaken<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Extra pure chocolade'">Extra pure chcolade<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Bosvruchten'">Bosvruchten<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Vruchten'">Vruchten<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Anijs'">Anijs<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Caramel'">Caramel<br>
         </form>
 
     </div>
-    <div id="uitvoer" class='middle'> <!-- hier komt de uitvoer van de query -->
+    <div id="uitvoer" class='middleresultaten'> <!-- hier komt de uitvoer van de query -->
     
     </div>
 

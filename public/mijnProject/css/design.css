@@ -13,7 +13,7 @@
     top: 0px;
 }
 
-img.fotologotop {
+.fotologotop {
     position: absolute;
     width:auto;
     height:calc(var(--hoogte-header-balk) - 2 * var(--afstand-logo-rand));
@@ -36,6 +36,7 @@ img.fotologotop {
   cursor: pointer;
   background-color:#91D8A6;
   outline:none;
+  top:20px;
 }
 
 .buttontop:hover {
@@ -45,22 +46,18 @@ img.fotologotop {
 
 .button1 {
   left: 300px;
-  top: 30px;
 }
 
 .button2 {
   left: 500px;
-  top: 30px;
 }
 
 .button3 {
   left: 780px;
-  top: 30px;
 }
 
 .button4 {
     left: 1020px;
-    top: 30px;
 }
 
 /*tussenstuk*/
@@ -69,6 +66,10 @@ img.fotologotop {
     color:#5c1d1f;
     text-align: center;
     font-size: 40px;
+    font-family:'cardiff';
+    margin:auto;
+    padding:auto;
+    margin-top:1%;
 }
 
 html,body {
@@ -89,9 +90,37 @@ body {
     font-family: sans-serif;
     font-size: 16px;
 }
-
-.filmpje {
+.balk{
     position:absolute;
-    right:calc(50% - 200px);
     bottom:5px;
+    height:225px;
+    outline:none;
+    border:none;
+}
+
+.foto1{
+    left:12.5%;
+}
+
+.filmpje1 {
+    right:calc(50% - 200px);
+}
+
+.foto2{
+    right:12.5%;
+}
+
+.middlefilter{
+    padding:auto auto;
+    margin-top:1%;
+    margin-left:5%;
+    margin-bottom:2%;
+    display: inline-block;
+    /*background:#CCDBDC;*/
+    font-family:arial;
+}
+
+.middleresultaten{
+    display: inline-block;
+    font-family:arial;
 }

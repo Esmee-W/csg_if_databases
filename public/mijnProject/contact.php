@@ -7,8 +7,8 @@
     <body>
         <?php include 'php/header.php';?>
         <div class="middle">
-            <h1>
-                Dit is het begin voor onze contact pagina.
+            <h1 class='titel'>
+                Contact met De Ruijter
             </h1>
         </div>
     </body>
