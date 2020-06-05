@@ -33,7 +33,7 @@
         </form>
 
     </div>
-    <div id="uitvoer"> <!-- hier komt de uitvoer van de query -->
+    <div id="uitvoer" class='middle'> <!-- hier komt de uitvoer van de query -->
     </div>
 
     <script>
