@@ -126,3 +126,21 @@ img.fotologobottom{
     left:45%;
     bottom:10px;
 }
+
+.copyright{
+    position:absolute;
+    bottom:10px;
+    right: 15%;
+    position: absolute;
+    border: none;
+    color: #5c1d1f;
+    padding: auto auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: arial;
+    margin: 4px 2px;
+    background-color: rgb(212, 212, 212);
+    outline:none;
+}
