@@ -19,6 +19,18 @@
             <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Kleintjes'">kleintjes<br>
             <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="soort='Bebogeen'">bebogeen<br>
         </form>
+        <h2>smaak</h2>
+        <form onclick="updateResultaat()">
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Pure chocolade'">puur<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Melk chocolade'">melk<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Witte chocolade'">wit<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Mix'">mix<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Extra pure chocolade'">extra puur<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Bosvruchten'">bosvruchten<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Vruchten'">vruchten<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Anijs'">anijs<br>
+            <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Caramel'">caramel<br>
+        </form>
 
     </div>
     <div id="uitvoer"> <!-- hier komt de uitvoer van de query -->
