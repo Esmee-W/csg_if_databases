@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <body>
+    <?php include 'php/header.php';?>
     <div class='middle'>
         <h2>type</h2>
         <form onclick="updateResultaat()">
@@ -53,5 +54,6 @@
         xhttp.send();
     }
     </script>
+    <?php include 'php/footer.php';?>
     </body>
 </html>
