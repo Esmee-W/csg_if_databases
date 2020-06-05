@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php include 'php/header.php';?>
-        <div id="container">
+        <div class="middle">
             <h1>
                 Over deze website
             </h1>
