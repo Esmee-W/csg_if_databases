@@ -10,7 +10,7 @@
     height:var(--hoogte-header-balk);
     background:#91D8A6;
     left:0px
-    top:0px;
+    top: 0px;
 }
 
 img.fotologotop {
@@ -86,16 +86,16 @@ body {
 
 /*footer*/
 #rectanglebottom{
-    position:absolute;
+    position:relative;
     height: var(--hoogte-footer-balk);
     width: 100%;
     background-color: rgb(212, 212, 212);
     left:0px;
-    bottom:0px;
+    bottom:0%;
 }
 
 img.fotologobottom{
-    position:absolute;
+    position:relative;
     bottom: calc(var(--hoogte-footer-balk) - 55px);
     right: calc(50% - 75px / 2);
     height: auto;
@@ -103,7 +103,7 @@ img.fotologobottom{
 }
 
 .buttonbottom {
-  position: absolute;
+  position: relative;
   border: none;
   color: #5c1d1f;
   padding: auto auto;
