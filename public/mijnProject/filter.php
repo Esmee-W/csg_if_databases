@@ -34,6 +34,7 @@
 
     </div>
     <div id="uitvoer" class='middle'> <!-- hier komt de uitvoer van de query -->
+    
     </div>
 
     <script>
