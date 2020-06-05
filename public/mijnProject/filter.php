@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <body>
-    <?php include 'php/header.php';?>
+    <!--<?php include 'php/header.php';?>-->
     <div class='middle'>
         <h2>type</h2>
         <form onclick="updateResultaat()">
@@ -62,10 +62,10 @@
                 document.getElementById("uitvoer").innerHTML = xhttp.responseText;
             }
         }
-        xhttp.open("GET", 'VNRdata.php?q='+q, true);
+        xhttp.open("GET", 'php/VNRdata.php?q='+q, true);
         xhttp.send();
     }
     </script>
-    <?php include 'php/footer.php';?>
+    <!--<?php include 'php/footer.php';?>-->
     </body>
 </html>
