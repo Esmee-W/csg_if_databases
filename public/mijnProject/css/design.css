@@ -86,7 +86,7 @@ body {
 
 /*footer*/
 #rectanglebottom{
-    position:relative;
+    position:sticky;
     height: var(--hoogte-footer-balk);
     width: 100%;
     background-color: rgb(212, 212, 212);
