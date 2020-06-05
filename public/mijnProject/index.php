@@ -6,10 +6,11 @@
     </head>
     <body>
         <?php include 'php/header.php';?>
-        <div class="middle">
-            <h1>
+        
+            <h1 class='titel'>
                 De Ruijter
             </h1>
+            <div class="middle">
             <p>
                 De Ruijter is opgericht in 1860 door C.R. de Ruijter. Sinds die dag zijn wij maken wij al hagelslag, vruchtenhagel, muisjes, chocoladevlokken, anijshagel en gestampte muisjes voor bij u op de keukentafel. 
             </p>

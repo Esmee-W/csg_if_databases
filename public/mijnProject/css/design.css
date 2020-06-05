@@ -59,6 +59,13 @@ img.fotologotop {
 }
 
 /*tussenstuk*/
+
+.titel{
+    color:#5c1d1f;
+    text-align: center;
+    font-size: 25px;
+}
+
 html,body {
     margin: 0;
     padding: 0;
