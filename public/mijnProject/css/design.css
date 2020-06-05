@@ -1,7 +1,7 @@
 /*header*/
 :root {
-  --hoogte-header-balk: 130px;
-  --afstand-logo-rand: 5px;
+  --hoogte-header-balk: 100px;
+  --afstand-logo-rand: 10px;
   --hoogte-footer-balk: 100px;
 }
 
@@ -54,8 +54,13 @@ img.fotologotop {
 }
 
 .button3 {
-  left: 800px;
+  left: 780px;
   top: 30px;
+}
+
+.button4 {
+    left: 1020px;
+    top: 30px;
 }
 
 /*tussenstuk*/
@@ -63,7 +68,7 @@ img.fotologotop {
 .titel{
     color:#5c1d1f;
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 html,body {
@@ -77,78 +82,16 @@ body {
 }
 
 .middle {
-    width: 50%;
-    margin: auto;
+    width: 75%;
+    margin: 12.5%;
     margin-top: 1%;
     padding: 0;
-    font-family: arial;
+    font-family: sans-serif;
+    font-size: 16px;
 }
 
-/*footer*/
-#rectanglebottom{
-    position:sticky;
-    height: var(--hoogte-footer-balk);
-    width: 100%;
-    background-color: rgb(212, 212, 212);
-    left:0px;
-    bottom:0%;
-}
-
-img.fotologobottom{
-    position:relative;
-    bottom: calc(var(--hoogte-footer-balk) - 55px);
-    right: calc(50% - 75px / 2);
-    height: auto;
-    width: 75px;
-}
-
-.buttonbottom {
-  position: relative;
-  border: none;
-  color: #5c1d1f;
-  padding: auto auto;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  font-family: arial;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  background-color: rgb(212, 212, 212);
-  outline:none;
-}
-
-.buttonbottom:hover {
-  background-color: rgb(212, 212, 212);
-  color: #5c1d1f;
-  text-decoration: underline
-}
-
-.button4{
- left:35%;
- bottom:10px;
-}
-
-.button5{
-    left:45%;
-    bottom:10px;
-}
-
-.copyright{
-    position:relative;
-    bottom:10px;
-    right: 15%;
-    position: absolute;
-    border: none;
-    color: #5c1d1f;
-    padding: auto auto;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    font-family: arial;
-    margin: 4px 2px;
-    background-color: rgb(212, 212, 212);
-    outline:none;
+.filmpje {
+    position:absolute;
+    right:calc(50% - 200px);
+    bottom:5px;
 }

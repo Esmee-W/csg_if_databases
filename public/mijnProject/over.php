@@ -11,6 +11,6 @@
                 Over deze website
             </h1>
         </div>
-        <?php include 'php/footer.php';?>
+
     </body>
 </html>
