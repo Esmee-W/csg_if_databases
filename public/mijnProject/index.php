@@ -13,8 +13,8 @@
             <div class="middle">
             <p>
                 De Ruijter is opgericht in 1860 door C.R. de Ruijter. Sinds die dag zijn wij maken wij al hagelslag, vruchtenhagel, muisjes, chocoladevlokken, anijshagel en gestampte muisjes voor bij u op de keukentafel. 
+                
             </p>
         </div>
-        <?php include 'php/footer.php';?>
     </body>
 </html>

@@ -66,6 +66,6 @@
         xhttp.send();
     }
     </script>
-    <!--<?php include 'php/footer.php';?>-->
+    
     </body>
 </html>

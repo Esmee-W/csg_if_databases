@@ -11,6 +11,5 @@
                 Dit is het begin voor onze contact pagina.
             </h1>
         </div>
-        <?php include 'php/footer.php';?>
     </body>
 </html>
