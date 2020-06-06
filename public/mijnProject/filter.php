@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Producten</title>
+        <link rel="stylesheet" href="css/design.css">
+    </head>
+
     <body>
     <?php include 'php/header.php';?>
     <h1 class='titel'>
@@ -37,7 +42,7 @@
 
     </div>
     <div id="uitvoer" class='middleresultaten'> <!-- hier komt de uitvoer van de query -->
-    
+        
     </div>
 
     <script>

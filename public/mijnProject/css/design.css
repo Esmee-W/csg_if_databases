@@ -123,4 +123,8 @@ body {
 .middleresultaten{
     display: inline-block;
     font-family:arial;
+    text-align: top;
+    position:absolute;
+    left:25%;
+    top:25%;
 }
