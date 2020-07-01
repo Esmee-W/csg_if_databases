@@ -13,7 +13,7 @@ echo "<h5>$sql</h5>";
 $records = mysqli_query($DBverbinding, $sql);
 if (mysqli_num_rows($records) > 0) {  
   while($record = mysqli_fetch_assoc($records)) {
-    echo "<b>".$record["naam"]."</b><br>";
+    echo "<h5>".$record["naam"]."</h5>";
   }
 }
 else {
