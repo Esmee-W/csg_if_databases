@@ -42,9 +42,9 @@
 
         </div>
         <div id="uitvoer" class='middleresultaten'> <!-- hier komt de uitvoer van de query -->
-            
+            <form onload="updateResultaat()"></form>
         </div>
-
+        
         <script>
         function updateResultaat() {
             var q = '';
