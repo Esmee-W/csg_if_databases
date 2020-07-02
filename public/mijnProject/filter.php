@@ -41,8 +41,13 @@
             </form>
 
         </div>
+<<<<<<< HEAD
         <div id="uitvoer" class='middleresultaten'> <!-- hier komt de uitvoer van de query -->
             <form onload="updateResultaat()"></form>
+=======
+        <div id="uitvoer" class='middleresultaten'> <!-- hier komt de uitvoer van de query -->  
+                updateResultaat();
+>>>>>>> 90f26534d95514beac73373d3deebb0127dc1287
         </div>
 
         <script>
@@ -76,7 +81,11 @@
             xhttp.send();
         }
         
+<<<<<<< HEAD
          updateResultaat();
+=======
+>>>>>>> 90f26534d95514beac73373d3deebb0127dc1287
         </script>
+        
     </body>
 </html>
