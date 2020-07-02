@@ -8,12 +8,14 @@ $DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $datab
 
 
 echo "<h2>RESULTAAT</h2>";
-echo "<h5>$sql</h5>";
 
 $records = mysqli_query($DBverbinding, $sql);
 if (mysqli_num_rows($records) > 0) {  
   while($record = mysqli_fetch_assoc($records)) {
-    echo "<h5>".$record["naam"]."</h5>";
+    echo "<div class='demo'><h3>".$record["naam"]."</h3>";
+    echo "<h4>"."€".$record["prijs"]."</h4>";
+    echo "<h5>".$record["gewicht"]." gram"."</h5>";
+    echo "<h6>".$record["omschrijving"]."</h6></div><br>";
   }
 }
 else {

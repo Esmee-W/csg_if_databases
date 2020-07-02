@@ -1,6 +1,4 @@
-h5 {
-    color: red;
-}
+
 
 /*header*/
 :root {
@@ -131,4 +129,40 @@ body {
     position:absolute;
     left:25%;
     top:25%;
+}
+
+
+.demo{
+    border-radius: 25px;
+    border: 2px solid #91D8A6; 
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+h3 /*naam*/{
+    padding: 0;
+    margin:0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h4 /*prijs*/{
+    padding:0;
+    margin:0;
+    font-weight:none;
+    font-size: 20px;
+    text-align: right;
+}
+
+h5 /*gewicht*/{
+    padding:0;
+    margin:0;
+    font-weight:none;
+    font-size: 10px;
+    text-align: right;
+}
+
+h6 /*omschrijving*/{
+    padding:0;
+    margin:0;
 }

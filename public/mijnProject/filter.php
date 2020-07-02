@@ -42,9 +42,7 @@
 
         </div>
         <div id="uitvoer" class='middleresultaten'> <!-- hier komt de uitvoer van de query -->
-            <script>    
-                updateResultaat();
-            </script>
+            <form onload="updateResultaat()"></form>
         </div>
 
         <script>
@@ -62,6 +60,7 @@
                         q += " and ";
                     }
                     q += '' + encodeURIComponent(eigenschappen[i].value) ;
+                    
                 }
             }
             
@@ -76,7 +75,8 @@
             xhttp.open("GET", 'php/VNRdata.php?q='+q, true);
             xhttp.send();
         }
-
+        
+         updateResultaat();
         </script>
     </body>
 </html>
