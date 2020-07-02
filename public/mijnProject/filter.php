@@ -12,8 +12,8 @@
             <h2>Type</h2>
             <form onclick="updateResultaat()">
                 <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Strooibaar'">Strooibaar<br>
-                <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Smeerbaar'">Smeer<br>
-                <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Drinkbaar'">Drinken<br>
+                <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Smeerbaar'">Smeerbaar<br>
+                <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="type='Drinkbaar'">Drinkbaar<br>
             </form>
             <h2>Soort</h2>
             <form onclick="updateResultaat()">
@@ -40,40 +40,37 @@
 
         </div>
         <div id="uitvoer" class='middleresultaten' > <!-- hier komt de uitvoer van de query -->
-            
         </div>
-        
         <script>
-        function updateResultaat() {
-            var q = '';
-            var eigenschappen = document.getElementsByName("eigenschap");
-            var eersteVoorwaardeGevonden = false;
-            for (i = 0; i < eigenschappen.length; i++) {
-                if (eigenschappen[i].checked) {
-                    if (!eersteVoorwaardeGevonden) {
-                        q += " where ";
-                        eersteVoorwaardeGevonden = true;
+            function updateResultaat() {
+                var q = '';
+                var eigenschappen = document.getElementsByName("eigenschap");
+                var eersteVoorwaardeGevonden = false;
+                for (i = 0; i < eigenschappen.length; i++) {
+                    if (eigenschappen[i].checked) {
+                        if (!eersteVoorwaardeGevonden) {
+                            q += " where ";
+                            eersteVoorwaardeGevonden = true;
+                        }
+                        else {
+                            q += " and ";
+                        }
+                        q += '' + encodeURIComponent(eigenschappen[i].value) ;
+                        
                     }
-                    else {
-                        q += " and ";
+                }
+                
+                var xhttp;
+                xhttp=new XMLHttpRequest();
+                xhttp.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById("uitvoer").innerHTML = xhttp.responseText;
                     }
-                    q += '' + encodeURIComponent(eigenschappen[i].value) ;
-                    
                 }
+                xhttp.open("GET", 'php/data.php?q='+q, true);
+                xhttp.send();
             }
-            
-
-            var xhttp;
-            xhttp=new XMLHttpRequest();
-            xhttp.onreadystatechange = function() {
-                if (this.readyState == 4 && this.status == 200) {
-                    document.getElementById("uitvoer").innerHTML = xhttp.responseText;
-                }
-            }
-            xhttp.open("GET", 'php/VNRdata.php?q='+q, true);
-            xhttp.send();
-        }
-        updateResultaat();
+            updateResultaat();
         </script>
         
     </body>

@@ -113,30 +113,32 @@ h2{
     border-radius: 25px;
     border: 2px solid #5c1d1f; 
     padding: 0px; 
-    width: 90%;
+    width: 900px;
     height: 140px;
     margin:20px;
 }
 
 .tekstresultaat{
-    margin: 10px;
+    margin: 20px;
     padding: 10px; 
-    padding-left: 100px;
-    padding-right:85px;
+    margin-left: 225px;
+    margin-right: 225px;
+    text-align: center;
 }
 
 .fotoresultaten{
     height: 122px;
     width: auto;
     position: absolute;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: -10px;
-    padding-left:0px;
+    padding:0px;
+    margin-right: 10px;
 }
 
 .resultaat34{
     position: absolute;
-    right: 10%;
+    right: 50px;
 }
 
 h3 /*naam*/{

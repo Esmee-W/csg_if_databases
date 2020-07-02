@@ -15,7 +15,7 @@
                 <a href="https://www.deruijter.nl/">
                     hier
                 </a>
-                om naar de officiele website te gaan. Deze website is gemaakt door Anniek&Esmee voor een informatica opdracht. De opdracht was om een dynamische website te maken. 
+                om naar de officiele website te gaan. Deze website is gemaakt door Anniek & Esmee voor een informatica opdracht. De opdracht was om een dynamische website te maken. 
             </p>
         </div>
 
