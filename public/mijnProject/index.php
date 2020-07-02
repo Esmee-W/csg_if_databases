@@ -16,12 +16,12 @@
                 <br><br>
                 Met de Ruijter maak je er tradities van. Bijzondere tradities, want alles wordt nóg bijzonderder als je er Wat-Dan-Ook uit een pak De Ruijter overheen giet. Sinds wanneer strooi jij de Ruijter?
             </p>
-            <img class="balk foto1" src="images/hagelslag-strooien.jpg">
-            <video controls class='balk filmpje1'>
+            <img class="balk " src="images/hagelslag-strooien.jpg" style='left:12.5%;'>
+            <video controls class='balk' style='right:calc(50% - 200px);'>
                 <source src="images/filmpje.webm" type="video/webm">
                 Your browser does not support HTML video.
             </video>
-            <img class="balk foto2" src="images/koken-hagelslag.jpg">
+            <img class="balk" src="images/koken-hagelslag.jpg" style='right:12.5%;'>
         </div>
     </body>
 </html>

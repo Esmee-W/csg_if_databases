@@ -11,9 +11,9 @@
         <a href="/mijnProject/">
             <img class="fotologotop" src="images/logo-de-ruijter.png">
         </a>
-        <button class="buttontop button1"onclick="location.href='/mijnProject';"><b>Home</b></button>
-        <button class="buttontop button2"onclick="location.href='/mijnProject/filter.php';"><b>Producten</b></button>
-        <button class="buttontop button3"onclick="location.href='/mijnProject/contact.php';"><b>Contact</b></button>
-        <button class="buttontop button4"onclick="location.href='/mijnProject/over.php';"><b>Over</b></button>
+        <button class="buttontop"onclick="location.href='/mijnProject';" style='left: 300px;'><b>Home</b></button>
+        <button class="buttontop"onclick="location.href='/mijnProject/filter.php';" style='left: 500px;'><b>Producten</b></button>
+        <button class="buttontop"onclick="location.href='/mijnProject/contact.php';" style='left: 780px;'><b>Contact</b></button>
+        <button class="buttontop"onclick="location.href='/mijnProject/over.php';" style='left: 1020px;'><b>Over</b></button>
     </body>
 </html>
