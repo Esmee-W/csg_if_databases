@@ -7,9 +7,7 @@
 
     <body>
         <?php include 'php/header.php';?>
-        <h1 class='titel'>
-            Producten
-        </h1>
+        <h1 class='titel'>Producten</h1>
         <div class='middlefilter'>
             <h2>Type</h2>
             <form onclick="updateResultaat()">
@@ -41,8 +39,8 @@
             </form>
 
         </div>
-        <div id="uitvoer" class='middleresultaten'> <!-- hier komt de uitvoer van de query -->
-            <form onload="updateResultaat()"></form>
+        <div id="uitvoer" class='middleresultaten' > <!-- hier komt de uitvoer van de query -->
+            
         </div>
         
         <script>
@@ -75,6 +73,7 @@
             xhttp.open("GET", 'php/VNRdata.php?q='+q, true);
             xhttp.send();
         }
+        updateResultaat();
         </script>
         
     </body>
