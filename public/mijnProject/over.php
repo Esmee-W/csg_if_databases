@@ -4,6 +4,7 @@
         <title>Over deze website</title>
         <link rel="stylesheet" type="text/css" href="css/design.css">
     </head>
+    
     <body>
         <?php include 'php/header.php';?>
         <div class="middle">
@@ -18,6 +19,5 @@
                 om naar de officiele website te gaan. Deze website is gemaakt door Anniek & Esmee voor een informatica opdracht. De opdracht was om een dynamische website te maken. 
             </p>
         </div>
-
     </body>
 </html>

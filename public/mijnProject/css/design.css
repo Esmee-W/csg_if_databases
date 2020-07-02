@@ -44,7 +44,7 @@
   color: white;
 }
 
-/*tussenstuk*/
+/*midden*/
 .titel{
     color:#5c1d1f;
     text-align: center;
@@ -89,7 +89,6 @@ body {
     margin-left:5%;
     margin-bottom:2%;
     display: inline-block;
-    /*background:#CCDBDC;*/
     font-family:arial;
 }
 

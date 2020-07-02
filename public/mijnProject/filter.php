@@ -8,6 +8,7 @@
     <body>
         <?php include 'php/header.php';?>
         <h1 class='titel'>Producten</h1>
+
         <div class='middlefilter'>
             <h2>Type</h2>
             <form onclick="updateResultaat()">
@@ -37,10 +38,10 @@
                 <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Anijs'">Anijs<br>
                 <INPUT TYPE="checkbox" NAME="eigenschap" VALUE="smaak='Caramel'">Caramel<br>
             </form>
+        </div>
 
-        </div>
-        <div id="uitvoer" class='middleresultaten' > <!-- hier komt de uitvoer van de query -->
-        </div>
+        <div id="uitvoer" class='middleresultaten' ></div>
+
         <script>
             function updateResultaat() {
                 var q = '';
@@ -55,8 +56,7 @@
                         else {
                             q += " and ";
                         }
-                        q += '' + encodeURIComponent(eigenschappen[i].value) ;
-                        
+                        q += '' + encodeURIComponent(eigenschappen[i].value); 
                     }
                 }
                 
@@ -72,6 +72,5 @@
             }
             updateResultaat();
         </script>
-        
     </body>
 </html>

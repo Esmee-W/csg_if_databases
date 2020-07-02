@@ -19,9 +19,8 @@
             <img class="balk " src="images/hagelslag-strooien.jpg" style='left:12.5%;'>
             <video controls class='balk' style='right:calc(50% - 200px);'>
                 <source src="images/filmpje.webm" type="video/webm">
-                Your browser does not support HTML video.
+                Jouw browser ondersteunt geen HTML video's.
             </video>
             <img class="balk" src="images/koken-hagelslag.jpg" style='right:12.5%;'>
-        </div>
     </body>
 </html>
